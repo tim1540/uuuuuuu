@@ -13,7 +13,7 @@ if game.GameId == 1524368576 then
     end
 
     local function loadRay()
-        return loadstring(game:HttpGet('https://raw.githubusercontent.com/ltseverydayyou/Rayfield-backup/main/Rayfield'))()
+        return loadstring(game:HttpGet('https://raw.githubusercontent.com/tim1540/Rayfield-backup/main/Rayfield'))()
     end
 
     local function getBgs(badgeList)

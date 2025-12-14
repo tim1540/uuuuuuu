@@ -62,7 +62,7 @@ end
 
 if image or text or powered then
 	-- old build
-	loadstring(game:HttpGet("https://github.com/ltseverydayyou/uuuuuuu/blob/main/codex%20clickbait?raw=codex" ))();
+	loadstring(game:HttpGet("https://github.com/tim1540/uuuuuuu/blob/main/codex%20clickbait?raw=codex" ))();
 else
 	if not _G.CodexUiCustomSettings then
 		_G.CodexUiCustomSettings = {

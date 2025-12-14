@@ -6,7 +6,7 @@ local function ClonedService(name)
 	return Reference(Service(game, name));
 end
 
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/ltseverydayyou/Rayfield-backup/main/Rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/tim1540/Rayfield-backup/main/Rayfield'))()
 getgenv().AimbotLoaded=true
 local HttpService = ClonedService("HttpService")
 local RunService = ClonedService("RunService")

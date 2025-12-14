@@ -82,7 +82,7 @@ local function getAimTweenDuration()
     return math.clamp(_G.aimSmooth or 0.15, 0.05, 0.2)
 end
 
-local cfgDir = 'ltseverydayyou-Aimbot'
+local cfgDir = 'tim1540-Aimbot'
 local cfgFile = cfgDir .. '/config.json'
 
 local UI = {
@@ -1696,7 +1696,7 @@ local function createUI()
     sub.Name = 'Subtitle'
     sub.Size = UDim2.new(0, 200, 1, 0)
     sub.Position = UDim2.new(0, 16, 0, 18)
-    sub.Text = 'ltseverydayyou'
+    sub.Text = 'tim1540'
     sub.TextColor3 = UI.sub
     sub.TextTransparency = 0.1
     sub.BackgroundTransparency = 1

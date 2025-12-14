@@ -35,7 +35,7 @@ do
     repeat
         tries += 1
         local s, r = pcall(function()
-            return loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/NamelessAdminNotifications.lua"))()
+            return loadstring(game:HttpGet("https://raw.githubusercontent.com/tim1540/Nameless-Admin/main/NamelessAdminNotifications.lua"))()
         end)
         if s and type(r) == "table" and type(r.Notify) == "function" then
             n = r
@@ -346,7 +346,7 @@ task.defer(function()
             local clickable = newBtn:FindFirstChildWhichIsA("GuiButton") or newBtn
             local function runNA()
                 pcall(function()
-                    loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/tim1540/Nameless-Admin/main/Source.lua"))()
                 end)
             end
             if clickable:IsA("GuiButton") then
